@@ -3,7 +3,7 @@ import React from 'react';
 function GeolocationData({ geolocationData }) {
   return (
     <div className="geolocation-data">
-      <h2>Geolocation Data</h2>
+      <h2></h2>
       {geolocationData ? (
         <div>
           <p>Country: {geolocationData.state_code}</p>
@@ -11,7 +11,7 @@ function GeolocationData({ geolocationData }) {
           {/* Add more geolocation information here if available */}
         </div>
       ) : (
-        <p>No geolocation data available.</p>
+        <p></p>
       )}
     </div>
   );
